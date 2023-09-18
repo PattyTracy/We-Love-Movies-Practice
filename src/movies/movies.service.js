@@ -33,17 +33,6 @@ function movieInTheaters(movie_id) {
     .distinct("t.theater_id")
     .where({ "mt.movie_id": movie_id });
 }
-// from Mohammed:
-// function listCritics () {
-//     return knex("critics")
-//     .select("*")
-// }
-// function movieReviews(movieId) {
-//     return knex("reviews as r")
-//       .join("movies as m", "r.movie_id", "m.movie_id")
-//       .select("r.*")
-//       .where({ "r.movie_id": movieId });
-//   }
 
 function movieReviews(movie_id) {
   return knex("reviews as r")
