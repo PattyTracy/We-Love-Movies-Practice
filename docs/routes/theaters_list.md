@@ -83,7 +83,7 @@ const addMovies = mapProperties({
 });
 ```
 
-However, since the index of movies is hard codes to `movies[0]`, each record just overwrites the movie at index 0.
+However, since the index of movies is hard coded to `movies[0]`, each record just overwrites the movie at index 0.
 
 What you want is to _collapse_ or _reduce_ the theatre data and _map_ the movies to an array property on the theatre.
 
