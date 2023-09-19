@@ -4,4 +4,4 @@ written to complete the Thinkful capstone in module 42.
 
 This server connects to a database containing 5 tables.
 Here is the ERD I created:
-
+![ERD of Tables](ERD_WeLoveMovies.png)
