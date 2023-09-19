@@ -6,7 +6,7 @@ This server connects to a database containing 5 tables.
 Here is the ERD I created:
 ![ERD of Tables](ERD_WeLoveMovies.png)
 
-Here are the endpoints: 
+Here are the endpoints:  
 **GET /movies** returns a list of all the movies in the database.  
 **GET /movies?is_showing=true** returns a list of the movies that are
 currently being shown at one of the database's theaters.  
