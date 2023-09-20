@@ -9,7 +9,9 @@ const moviesRouter = require("./movies/movies.router");
 const reviewsRouter = require("./reviews/reviews.router");
 const theatersRouter = require("./theaters/theaters.router");
 
-app.use(cors());
+app.use(cors({
+    origin: "https://pt-movies-front-end.onrender.com"
+}));
 app.use(express.json());
 
 app.use("/movies", moviesRouter);
